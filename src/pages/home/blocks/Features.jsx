@@ -3,17 +3,17 @@ import React from "react";
 const Features = () => {
   const items = [
     {
-      img: "/img/feature1.png",
+      img: "/images/Content.png",
       title: "Seamless Portfolio Creation",
       text: "Build your professional identity in minutes",
     },
     {
-      img: "/img/feature2.png",
+      img: "/images/Content.png",
       title: "Smart Template Management",
       text: "Design freedom at your fingertips",
     },
     {
-      img: "/img/feature3.png",
+      img: "/images/Content.png",
       title: "Secure User and Content Management",
       text: "Your creativity deserves protection",
     },

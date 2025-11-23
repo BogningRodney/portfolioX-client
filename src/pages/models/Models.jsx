@@ -9,7 +9,7 @@ const Models = () => {
     <div className="min-h-screen bg-white px-6 py-10">
       {/* Header */}
       <header className="flex justify-between items-center px-4 mb-10">
-        <img src="/logo.png" alt="logo" className="w-12" />
+        <img src="/logo/logo.png" alt="logo" className="w-12" />
 
         <div className="text-2xl cursor-pointer">
           <span className="text-gray-700">👤</span>

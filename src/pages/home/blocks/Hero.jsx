@@ -13,11 +13,19 @@ const Hero = () => {
         made simple. Portfolix lets you create a stunning, custom portfolio in minutes.
       </p>
 
-      <button className="mt-6 bg-purple-600 text-white px-8 py-3 rounded-full shadow-md hover:bg-purple-700 transition">
+      <a href="/models" className="inline-block mt-6 bg-purple-600 text-white px-8 py-3 rounded-full shadow-md hover:bg-purple-700 transition">
         Get started
-      </button>
+      </a>
 
-      <div className="mt-12 rounded-3xl bg-gradient-to-br from-purple-50 to-purple-100 p-10 shadow-xl">
+      <div 
+        className="mt-12 rounded-3xl bg-gradient-to-br from-purple-50 to-purple-100 p-10 shadow-xl"
+        style={{
+          backgroundImage: "url('/images/Content.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "300px",
+        }}
+      >
         <div className="flex justify-center gap-6">
           <button className="px-6 py-2 bg-white shadow rounded-full font-medium">
             Components
@@ -26,9 +34,9 @@ const Hero = () => {
             Templates
           </button>
         </div>
-
+{/* 
         <p className="mt-6 text-gray-600">Premium rate: $72.5 / Month</p>
-        <p className="mt-2 text-gray-600">Get Discount: 18% / First Pay</p>
+        <p className="mt-2 text-gray-600">Get Discount: 18% / First Pay</p> */}
       </div>
     </section>
   );

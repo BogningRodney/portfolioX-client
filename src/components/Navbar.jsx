@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6 px-6 lg:px-20">
       <div className="flex items-center gap-2">
-        <div className="w-7 h-7 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">
-          P
+        <div className="w-7 h-7  rounded-full flex items-center justify-center text-white font-bold">
+          <img src="/logo/logo.png" alt="" />
         </div>
         <h1 className="font-semibold text-lg">PortfoliX</h1>
       </div>
